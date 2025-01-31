@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link href="deepseek.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="outer">
+        <input type="number" class="amnt" value="1" placeholder="Enter Amount"><br><br>
+        <div class="units">
+            <select class="from unit">
+                <option class='inr' selected>Indian Rupee</option>
+            </select>
+            <img src="exchange.png" style="height: 1.5rem; width:auto;margin-left: 10px;margin-right: 10px;">
+            <select class="to unit">
+                <option class='usd' selected>US Dollar</option>
+            </select>
+        </div>
+        <br>
+        <p id="result"></p><br>
+        <button class="calc">Calculate</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

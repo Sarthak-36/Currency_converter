@@ -1,0 +1,65 @@
+body, html{
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.outer{
+    margin-top:7rem;
+    /* margin-bottom: 7rem; */
+    height:15rem;
+    width:30rem;
+    justify-items: center;
+    align-content: center;
+    padding:2rem;
+    /* border: solid; */
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+.amnt{
+    width: 320px;;
+    height: 1.5rem;
+    transition: box-shadow 0.3s ease;
+}
+.amnt:hower{
+    transform: scale(1.05);
+}
+
+#result{
+    color: brown;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.unit{
+    width:9rem;
+    height: 1.5rem;
+}
+
+.units{
+    display: flex;
+    align-content: center;
+}
+
+.calc{
+    height:2rem;
+    width: 10rem;
+    color:white;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    font-size: 13px;
+    font-weight: bold;
+    cursor:pointer;
+    border-radius: 8px;
+    /* transition: all 0.3s ease-in-out; */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.calc:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    transform: scale(1.05);
+}
