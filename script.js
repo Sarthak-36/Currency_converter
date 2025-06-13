@@ -51,3 +51,8 @@ document.addEventListener("DOMContentLoaded", action);
 amount.addEventListener("input", action);
 let button = document.querySelector(".calc");
 button.addEventListener("click", action);
+
+
+
+
+
